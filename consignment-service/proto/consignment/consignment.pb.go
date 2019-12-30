@@ -38,7 +38,7 @@ func (m *Consignment) Reset()         { *m = Consignment{} }
 func (m *Consignment) String() string { return proto.CompactTextString(m) }
 func (*Consignment) ProtoMessage()    {}
 func (*Consignment) Descriptor() ([]byte, []int) {
-	return fileDescriptor_consignment_1072060a0cf09935, []int{0}
+	return fileDescriptor_consignment_00f5aa9a797c2f50, []int{0}
 }
 func (m *Consignment) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Consignment.Unmarshal(m, b)
@@ -107,7 +107,7 @@ func (m *Container) Reset()         { *m = Container{} }
 func (m *Container) String() string { return proto.CompactTextString(m) }
 func (*Container) ProtoMessage()    {}
 func (*Container) Descriptor() ([]byte, []int) {
-	return fileDescriptor_consignment_1072060a0cf09935, []int{1}
+	return fileDescriptor_consignment_00f5aa9a797c2f50, []int{1}
 }
 func (m *Container) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Container.Unmarshal(m, b)
@@ -167,7 +167,7 @@ func (m *Response) Reset()         { *m = Response{} }
 func (m *Response) String() string { return proto.CompactTextString(m) }
 func (*Response) ProtoMessage()    {}
 func (*Response) Descriptor() ([]byte, []int) {
-	return fileDescriptor_consignment_1072060a0cf09935, []int{2}
+	return fileDescriptor_consignment_00f5aa9a797c2f50, []int{2}
 }
 func (m *Response) XXX_Unmarshal(b []byte) error {
 	return xxx_messageInfo_Response.Unmarshal(m, b)
@@ -280,10 +280,10 @@ var _ShippingService_serviceDesc = grpc.ServiceDesc{
 }
 
 func init() {
-	proto.RegisterFile("proto/consignment/consignment.proto", fileDescriptor_consignment_1072060a0cf09935)
+	proto.RegisterFile("proto/consignment/consignment.proto", fileDescriptor_consignment_00f5aa9a797c2f50)
 }
 
-var fileDescriptor_consignment_1072060a0cf09935 = []byte{
+var fileDescriptor_consignment_00f5aa9a797c2f50 = []byte{
 	// 293 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x74, 0x91, 0x3f, 0x4f, 0xc3, 0x30,
 	0x10, 0xc5, 0x49, 0xff, 0x26, 0x17, 0x09, 0x84, 0x25, 0x8a, 0x55, 0x96, 0x28, 0x2c, 0x9d, 0x8a,

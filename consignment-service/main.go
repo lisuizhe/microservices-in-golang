@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	pb "github.com/lisuizhe/microservices-in-golang/proto/consignment"
+	pb "github.com/lisuizhe/microservices-in-golang/consignment-service/proto/consignment"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

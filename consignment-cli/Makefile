@@ -1,4 +1,6 @@
-.PHONY: build run clean
+.PHONY: build clean run all
+
+all: build clean run
 
 build:
 	GOOS=linux GOARCH=amd64 go build

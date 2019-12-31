@@ -8,4 +8,4 @@ run:
 	docker run shippy-cli-consignment
 
 clean:
-	rm shippy-cli-consignment
+	rm consignment-cli

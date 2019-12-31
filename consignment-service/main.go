@@ -2,10 +2,12 @@ package main
 
 import (
 	"fmt"
+	"sync"
+
+	"context"
 
 	pb "github.com/lisuizhe/microservices-in-golang/consignment-service/proto/consignment"
 	"github.com/micro/go-micro"
-	"context"
 )
 
 // const (

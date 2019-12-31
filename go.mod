@@ -17,7 +17,7 @@ require (
 	github.com/golang/protobuf v1.3.2
 	github.com/google/pprof v0.0.0-20191218002539-d4f498aebedc // indirect
 	github.com/jstemmer/go-junit-report v0.9.1 // indirect
-	github.com/micro/go-micro v1.18.0
+	github.com/micro/go-micro v1.8.2
 	github.com/micro/protobuf v0.0.0-20180321161605-ebd3be6d4fdb // indirect
 	github.com/prometheus/client_model v0.1.0 // indirect
 	github.com/rogpeppe/go-internal v1.5.1 // indirect

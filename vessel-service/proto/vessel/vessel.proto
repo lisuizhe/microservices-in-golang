@@ -3,7 +3,7 @@ syntax = "proto3";
 package vessel;
 
 service VesselService {
-    rpc FindAvailable(Spefication) returns (Response) {}
+    rpc FindAvailable(Specification) returns (Response) {}
 }
 
 message Vessel {
@@ -15,7 +15,7 @@ message Vessel {
     string owner_id = 6;
 }
 
-message Spefication {
+message Specification {
     int32 capacity = 1;
     int32 max_weight = 2;
 }

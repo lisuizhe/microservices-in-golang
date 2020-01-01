@@ -1,10 +1,12 @@
-.PHONY: build clean run all
+.PHONY: proto build clean run all
 
 all: build clean run
 
-build:
+proto:
 	protoc -I. --go_out=plugins=micro:. \
 	  proto/vessel/vessel.proto
+
+build: proto
 	GOOS=linux GOARCH=amd64 go build
 	docker build -t shippy-service-vessel .
 

@@ -7,7 +7,7 @@ proto:
 	  proto/consignment/consignment.proto
 
 build: proto
-	GOOS=linux GOARCH=amd64 go build
+	RUN CGO_ENABLED=0 GOOS=linux go build -o consignment-service -a -installsuffix cgo main.go repository.go handler.go datastore.go
 	docker build -t shippy-service-consignment .
 
 run: 
